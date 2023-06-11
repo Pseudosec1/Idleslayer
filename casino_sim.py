@@ -20,7 +20,7 @@ def get_coins():
 	roll = 0
 	
 	while not lose:
-		num = randint(0, 36)
+		num = randint(0, 15)
 		roll += 1
 		
 		if num == 0:
